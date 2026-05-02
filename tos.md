@@ -1,58 +1,60 @@
 # CatchMeUp Terms of Service
 
-Last updated: April 26, 2026
+Last updated: May 2, 2026
 
-## Acceptance of Terms
+## 1. Acceptance of Terms
 
-These Terms of Service ("Terms") govern your use of CatchMeUp ("the Bot"). By using the Bot, you agree to these Terms.
+These Terms of Service ("Terms") govern your use of CatchMeUp ("the Bot"). By using the Bot, you agree to these Terms. If you do not agree, do not use the Bot.
 
-If you do not agree, do not use the Bot.
+## 2. Service Description
 
-## Service Description
+CatchMeUp provides AI-assisted summaries of Discord channel conversations. The Bot utilizes a multi-tiered architecture:
 
-CatchMeUp provides AI-assisted summaries of Discord channel conversations based on user commands and available message history.
+- **Free Tier:** Utilizes Google Gemini 2.5 Flash Lite with a 100-message lookback limit and standardized rate-limiting.
+- **Pro Tier:** Utilizes Google Gemini 3.1 Pro with a 1,000-message lookback limit and priority processing.
 
-## Appropriate Use
+## 3. Appropriate Use & Fair Use Policy
 
-You agree to use the Bot responsibly and in compliance with Discord's Terms of Service, Community Guidelines, and Developer policies.
+You agree to use the Bot responsibly. To ensure service stability for all users, Stego Apps ("the Developer") enforces a Fair Use Policy:
 
-You must not:
+**Rate Limiting:** The Developer reserves the right to apply global or per-user cooldowns to manage API costs and server load.
 
-- Spam or abuse commands
-- Attempt to intentionally trigger or amplify API rate limits
-- Use the Bot for harassment, illegal activity, or platform abuse
-- Attempt to disrupt, reverse engineer, or interfere with service operation
+**High-Volume Guilds:** For servers with exceptionally high volume (e.g., those exceeding 50,000 members or consistently generating high request counts), the Developer reserves the right to:
 
-## AI Disclaimer
+- Apply additional rate-limiting or "speed bumps."
+- Transition the server to a custom Enterprise Tier.
+- Temporarily suspend service to maintain global stability.
 
-CatchMeUp uses generative AI (including Google Gemini) to produce summaries and question-based responses. AI output may be incomplete, inaccurate, or contain hallucinations.
+**Prohibited Acts:** You must not attempt to "DDoS" the bot, use automated scripts to bypass cooldowns, or reverse engineer the API.
 
-You are responsible for verifying important information. The developer is not liable for losses, disputes, or misunderstandings resulting from reliance on AI-generated output.
+## 4. AI Disclaimer
 
-## Premium Subscriptions and Billing
+CatchMeUp uses generative AI to produce responses. AI output may be incomplete, inaccurate, or contain "hallucinations." You are responsible for verifying important information. The Developer is not liable for losses, disputes, or misunderstandings resulting from reliance on AI-generated output.
 
-If premium features are offered through Discord, all purchases, billing, and refunds are handled by Discord's native payment system.
+## 5. Premium Subscriptions (CatchMeUp Pro)
 
-Premium transactions are subject to Discord's applicable billing and refund policies, not separate processor terms from CatchMeUp.
+**Billing:** All CatchMeUp Pro subscriptions are handled exclusively through Discord’s native monetization system.
 
-## Availability and Changes
+**Scope:** A single Pro subscription applies to the entire server (Guild) where it was purchased, granting Pro features to all users within that specific Guild.
 
-The Bot is provided on an "as is" and "as available" basis. Features may change, be suspended, or be discontinued at any time without prior notice.
+**Refunds:** All payment disputes, billing cycles, and refunds are governed by Discord's payment policies.
 
-The developer may update these Terms periodically. Continued use after updates constitutes acceptance of the revised Terms.
+## 6. Availability and Changes
 
-## Termination and Access Restriction
+The Bot is provided on an "as is" basis. Stego Apps may change, suspend, or discontinue features (including model versions) at any time to account for API costs or platform changes.
 
-The developer reserves the right to suspend or terminate access to the Bot, in whole or in part, for abusive behavior, policy violations, or attempts to harm the service or other users.
+## 7. Termination and Access Restriction
 
-## Limitation of Liability
+The Developer reserves the right to terminate access for any server or user found to be intentionally attempting to spike API costs, harassing the service, or violating Discord’s Developer Policy.
 
-To the maximum extent permitted by law, the developer is not liable for indirect, incidental, special, consequential, or punitive damages, or any loss of data, profits, or goodwill arising from use of the Bot.
+## 8. Limitation of Liability
 
-## Governing Platform Rules
+To the maximum extent permitted by law, the Developer (Stego Apps) is not liable for indirect, incidental, or consequential damages, including loss of data or profit, arising from the use or inability to use the Bot.
 
-Use of CatchMeUp is also subject to Discord platform rules. In the event of conflict, applicable Discord platform requirements control use on Discord.
+## 9. Governing Platform Rules
 
-## Contact
+Use of CatchMeUp is also subject to the Discord Developer Policy and Terms of Service. In the event of a conflict, Discord’s platform requirements control.
 
-For questions about these Terms, contact the CatchMeUp developer/maintainer through the bot's listed support channel or repository contact method.
+## 10. Contact
+
+For questions regarding these Terms or for Enterprise inquiries for high-volume servers, contact the Developer through the official support channel or the contact method listed in the Discord App Directory.
